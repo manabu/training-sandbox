@@ -2,9 +2,11 @@
 # -*- coding: utf-8 -*-
 import sys
 # 数値の数の読み込み
-n = int(input())
+#n = int(input())
 # 数値読み込み
-items = [int(input()) for i in range(n)]
+#items = [int(input()) for i in range(n)]
+items = [500,100,50]
+n=len(items)
 m =  [int(input()) for i in range(n)]
 # 目的の数 A
 A = int(input())
